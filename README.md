@@ -134,8 +134,8 @@ Computer Science Student
 York University
 
 * GitHub: https://github.com/takshp2024-sys
-* LinkedIn: [Add your LinkedIn URL]
-* Devpost: [Add your Devpost URL]
+* LinkedIn: https://linkedin.com/in/taksh-patel-b71b33329/
+* Devpost: https://devpost.com/takshp2024-sys
 
 ## 📄 License
 
