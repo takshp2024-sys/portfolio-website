@@ -1,34 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Taksh Patel — Portfolio Website
 
-## Getting Started
+Personal developer portfolio showcasing my software engineering, AI, and cybersecurity projects, technical skills, experience, education, hackathons, and professional links.
 
-First, run the development server:
+🌐 **Live Portfolio:** https://takshpatel-portfolio-website.vercel.app/
+
+## ✨ Features
+
+* **Interactive portfolio experience** with smooth animations and transitions
+* **Project filtering** by Software/AI and Cybersecurity
+* **Project details** with GitHub, Devpost, live demo, and video links where available
+* **Resume selection** for:
+
+  * Full Resume
+  * Software/AI Resume
+  * Cybersecurity Resume
+* **Hackathons section** highlighting projects and competitions
+* **Experience and education** sections
+* Direct links to **GitHub, LinkedIn, and Devpost**
+* Responsive design for desktop and mobile devices
+* Centralized project and portfolio data for easier maintenance
+
+## 🛠️ Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **Framer Motion**
+* **Lucide React**
+* **Vercel**
+
+## 📂 Project Structure
+
+```text
+portfolio-website/
+├── public/                 # Static assets, resumes, images, and other files
+├── src/
+│   ├── app/                # Next.js application routes and layout
+│   ├── components/         # Reusable UI components
+│   ├── data/               # Centralized portfolio/project data
+│   └── ...
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+* Node.js installed
+* npm installed
+* Git installed
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/takshp2024-sys/portfolio-website.git
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## 🏗️ Production Build
 
-To learn more about Next.js, take a look at the following resources:
+To verify the application builds successfully:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run the production build locally:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The portfolio is deployed on **Vercel** and connected to the GitHub repository.
+
+Changes pushed to the `main` branch can automatically trigger a new production deployment.
+
+**Production URL:**
+
+https://takshpatel-portfolio-website.vercel.app/
+
+## 📌 Featured Projects
+
+The portfolio includes projects across Software Engineering, AI, and Cybersecurity, including:
+
+* **Perimeter** — FinTech/Cybersecurity payment-token security platform
+* **CourseChat** — AI-powered course-material RAG browser extension
+* **MOTION** — Computer-vision project transforming human movement into digital art
+* **Robot Sensor Anomaly Detector**
+* **SIEM-lite**
+* **Forensics Triage Tool**
+* **Aura Engine**
+
+Each project includes relevant technologies, descriptions, and external resources where available.
+
+## 🎯 Purpose
+
+This portfolio serves as a centralized representation of my technical work and professional experience.
+
+It is designed to make it easy for recruiters, hiring managers, collaborators, and other developers to quickly explore my projects, technical skills, and experience.
+
+## 👨‍💻 Author
+
+**Taksh Patel**
+
+Computer Science Student
+York University
+
+* GitHub: https://github.com/takshp2024-sys
+* LinkedIn: [Add your LinkedIn URL]
+* Devpost: [Add your Devpost URL]
+
+## 📄 License
+
+This project is a personal portfolio website. Unless otherwise stated, the content, branding, and personal materials are not intended for redistribution.
