@@ -190,7 +190,7 @@ export const PROJECTS: Project[] = [
     isSecurityDashboard: true,
     links: {
       github: 'https://github.com/takshp2024-sys/siem-lite',
-      devpost: 'https://devpost.com/software/robot-sensor-anomaly-detector', // Config warning: supplied URL matches Anomaly Detector Devpost URL
+      devpost: 'https://devpost.com/software/siem-lite',
     }
   },
   {
